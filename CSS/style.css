@@ -1,0 +1,39 @@
+body{
+    background-color: hotpink;
+}
+.panel{
+    margin-top: 20px;
+    border: 2px solid greenyellow;
+    display: flex;
+    justify-content: center;
+    background-color: hotpink;
+}
+.row{
+   display: flex;
+   justify-content: center;
+   background:radial-gradient(red, greenyellow);
+   text-transform: uppercase;
+   line-height: 1.5;
+}
+.col-md-1{
+    line-height: 1,5;
+}
+.img{
+    right: 50px;
+    left: 50px;
+    position: relative;
+	width: 100%;
+}
+p{
+    position: absolute;
+	top	: 200px;
+    left: 25px;
+    right: 25px;
+    width: 100%;
+
+    color: red;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
